@@ -16,7 +16,7 @@ if [ -z "$GITHUB_TOKEN" ]; then
   githubUrl=git@github.com:ytppp/ytpblog.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://ytppp:${GITHUB_TOKEN}@github.com/ytppp/ytpblog.git
+  githubUrl=https://ytppp:${GITHUB_TOKEN}@github.com/ytppp/ytppp.git
   git config --global user.name "ytppp"
   git config --global user.email "651003708@qq.com"
 fi
